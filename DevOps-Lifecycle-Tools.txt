@@ -1,0 +1,7 @@
+Continuous Development --> Plan/Design, Code --> (Git) / (GitHub)
+Continuous Testing --> Build (Maven), Test - FT, PT, ST
+Continuous Integration --> (Jenkins)
+Continuous Deployment --> (Docker), (Kubernetes), (Ansible)
+Continuous Monitoring --> (Prometheus/Grafana)
+
+Infrastructure Automation --> Terraform
