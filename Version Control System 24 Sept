@@ -18,3 +18,9 @@ Why VCS?
 
 ===========================================================================================
 ls -la --> list the hidden files/directories --> To check whether the folder is being tracked bt git or not (.git)
+ls -l --> WD
+git ls-files --> SA/LR
+git status --> To confirm SA or LR
+      untracked --> WD
+      chnages to be committed --> SA
+      working tree clean --> LR
