@@ -1,0 +1,53 @@
+ubuntu@ip-172-31-13-16:~/project1$ history
+    1  clear
+    2  git --version
+    3  ls -l
+    4  mkdir project1
+    5  cd project1/
+    6  pwd
+    7  vi file1.java
+    8  ls -l
+    9  ls -la
+   10  git init
+   11  ls -la
+   12  ls -l
+   13  pwd
+   14  ls -l
+   15  git ls-files
+   16  git status
+   17  git add file1.java 
+   18  ls -l
+   19  git ls-files
+   20  git status
+   21  git commit -m "1st commit"
+   22  git log
+   23  ls -l
+   24  git ls-files
+   25  git status
+   26  git config --list
+   27  git config global --list
+   28  git config --list
+   29  git config global --list
+   30  git config --global --list
+   31  clear
+   32  git config --list
+   33  sudo su -
+   34  git config --list
+   35  git config --global user.name "raushan"
+   36  git config --global user.email "raushan8586.kumar@gmail.com"
+   37  git config --list
+   38  vi file2.java
+   39  ls -l
+   40  git ls-files
+   41  git status
+   42  git add file2.java 
+   43  ls -l
+   44  git ls-files
+   45  git status
+   46  git commit -m "2nd commit"
+   47  git log
+   48  git status
+   49  git remote -v
+   50  git remote add origin https://github.com/raushan8586/devops-edureka-repo.git
+   51  git remote -v
+   52  git push origin master
