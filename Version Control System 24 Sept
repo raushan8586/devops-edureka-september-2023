@@ -1,0 +1,20 @@
+Version Control System
+
+Git --> Version control system (VCS)
+GitHub --> Source Code Management (SCM) / Online Code Repo  --> Remote Repo
+
+
+Why VCS?
+1. To track changes --> who commited the changes? what was the change? --> commit id
+2. To retrieve/recover files from accidental deletes
+
+2 types of VCS:
+1. Centralized VCS --> svn (subversion)
+    Drawbacks:
+      a. Multiple developers can't work on the same files/projects at the same time
+      b. To make changes, Developers need to be connected over the internet
+
+2. Distributed VCS --> git
+
+===========================================================================================
+ls -la --> list the hidden files/directories --> To check whether the folder is being tracked bt git or not (.git)
