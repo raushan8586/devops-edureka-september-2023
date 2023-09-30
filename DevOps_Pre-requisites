@@ -8,3 +8,10 @@ Provisioning a VM in the Cloud (23rd September)
 
 4. Cloud --> AWS/Azure/GCP --> AWS (new to cloud)
 https://www.youtube.com/watch?v=k1RI5locZE4
+
+EC2
+IAM
+VPC
+Storage Services --> EBS, S3, EFS
+Load Balancers
+Auto - Scaling group
