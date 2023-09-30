@@ -51,3 +51,81 @@ ubuntu@ip-172-31-13-16:~/project1$ history
    50  git remote add origin https://github.com/raushan8586/devops-edureka-repo.git
    51  git remote -v
    52  git push origin master
+
+
+---------------------------------------------------------------------------------------------------------
+
+10  git clone https://github.com/raushan8586/devops-edureka-repo.git
+   11  ls -l
+   12  cd devops-edureka-repo/
+   13  ls -l
+   14  git branch
+   15  git checkout master
+   16  git branch
+   17  ls -l
+   18  git branch
+   19  git checkout main
+   20  ls --l
+   21  ls -l
+   22  pwd
+   23  ls -l
+   24  pwd
+   25  ls -l
+   26  git branch
+   27  git checkout master
+   28  ls -l
+   29  git log
+   30  git log --oneline
+   31  git branch clear
+   32  clear
+   33  git log
+   34  ls -l
+   35  touch file3.java
+   36  vi file3.java 
+   37  git add .
+   38  git commit -m "3rd commit"
+   39  git log
+   40  git log --oneline
+   41  git branch
+   42  git branch b1 master
+   43  git branch
+   44  git log
+   45  git branch
+   46  git log --oneline
+   47  git checkout b1
+   48  git log --oneline
+   49  git branch
+   50  ls -l
+   51  vi b1_sample1.java
+   52  git add b1_sample1.java 
+   53  git commit -m "b1_1st-commit"
+   54  git log --oneline
+   55  git push origin b1
+   56  git log --oneline
+   57  git remote -v
+   58  git log --oneline
+   59  clear
+   60  git log --oneline
+   61  git branch
+   62  git remote 0v
+   63  git remote -v
+   64  clear
+   65  git branch
+   66  git checkout master
+   67  git log --oneline
+   68  git checkout b1
+   69  git log --oneline
+   70  git checkout master
+   71  git merge b1 master
+   72  git log --oneline
+   73  git push origin master
+   74  git log --oneline
+   75  git branch
+   76  ls -l
+   77  vi file4.java
+   78  git add .
+   79  git commit -m "4th commit"
+   80  git log --oneline
+   81  git checkout b1
+   82  git rebase master
+   83  git log --oneline
