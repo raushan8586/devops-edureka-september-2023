@@ -129,3 +129,68 @@ ubuntu@ip-172-31-13-16:~/project1$ history
    81  git checkout b1
    82  git rebase master
    83  git log --oneline
+
+----------------------------------------------------------------
+
+100  cd devops-edureka-repo/
+  101  ls -l
+  102  git branch
+  103  git checkout master
+  104  git branch
+  105  git log --oneline
+  106  git remote -v
+  107  ls -l
+  108  vi app.log
+  109  cat app.log
+  110  vi ReadMe1st
+  111  cat ReadMe1st 
+  112  vi file5.java
+  113  git status
+  114  vi .gitignore
+  115  git status
+  116  git add .
+  117  git commit -m "5th commit"
+  118  git config --global user.name "raushan"
+  119  git config --global user.email "raushan8586.kumar@gmail.com"
+  120  git config --list
+  121  git status
+  122  git log --oneline
+  123  vi file6.java
+  124  git add .
+  125  git commit -m "6th commit"
+  126  git log --oneline
+  127  git show 72ac434
+  128  git show 444b3e9
+  129  git revert 72ac434
+  130  git log --oneline
+  131  git show 27c8a16
+  132  ls -l
+  133  git revert 27c8a16
+  134  git log --oneline
+  135  ls -l
+  136  git status
+  137  ls -l
+  138  git log --oneline
+  139  ls -l
+  140  git ls-files
+  141  git status
+  142  rm file6.java
+  143  ls -l
+  144  git status
+  145  git restore file6.java
+  146  ls -l
+  147  git status
+  148  git rm file6.java
+  149  ls -l
+  150  git ls-files
+  151  git status
+  152  git restore --staged file6.java
+  153  git status
+  154  git ls-files
+  155  git restore file6.java
+  156  ls -l
+  157  git status
+  158  git log --oneline
+  159  git reset --hard 72ac434
+  160  git log --oneline
+  161  git status
