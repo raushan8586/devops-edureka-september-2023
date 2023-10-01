@@ -221,3 +221,60 @@ ubuntu@ip-172-31-13-16:~/project1$ history
   186  git stash clear
   187  git stash list
   188  git status
+
+ 191  git log --oneline
+  192  git checkout -b b2 master
+  193  git branch
+  194  git log --oneline
+  195  git log --graph --pretty=oneline
+  196  ls -l
+  197  vi b2_demo1.java
+  198  git add .
+  199  git commit -m "b2_1st-commit"
+  200  git log --oneline
+  201  git checkout master
+  202  ls -l
+  203  vi file7.java
+  204  git add .
+  205  git commit -m "b3_1st-commit"
+  206  git log --oneline
+  207  git merge b2 master
+  208  git log --graph --pretty=oneline
+  209  git log --oneline
+  210  git branch
+  211  git checkout b2
+  212  git rebase master
+  213  git checkout b1
+  214  git rebase master
+  215  git log --oneline
+  216  git checkout b1
+  217  ls -l
+  218  vi test.java
+  219  git add .
+  220  git commit -m "b1_2nd-commit"
+  221  git checkout b2
+  222  vi test.java
+  223  git add .
+  224  git commit -m "b2_2nd-commit"
+  225  git status
+  226  git log --oneline
+  227  git checkout master
+  228  git merge b1 master
+  229  ls -l
+  230  git log --oneline
+  231  git merge b2 master
+  232  git status
+  233  vi test.java
+  234  git status
+  235  git add .
+  236  git commit -m "test.java file merge fixed"
+  237  git status
+  238  ls -l
+  239  cat test.java
+  240  git fetch origin
+  241  git branch
+  242  git push origin master
+  243  git pull origin master
+  244  clear
+  245  git stash list
+  246  git remote -v
