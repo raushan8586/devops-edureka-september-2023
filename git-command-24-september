@@ -194,3 +194,30 @@ ubuntu@ip-172-31-13-16:~/project1$ history
   159  git reset --hard 72ac434
   160  git log --oneline
   161  git status
+
+---------------------------------------
+
+165  vi file5.java
+  166  vi file6.java
+  167  git status
+  168  git stash list
+  169  git stash
+  170  git stash list
+  171  git show stash@{0}
+  172  git status
+  173  git stash list
+  174  git stash pop stash@{0}
+  175  git status
+  176  git stash list
+  177  git stash -p
+  178  git status
+  179  git stash list
+  180  git show stash@{0}
+  181  git stash drop stash@{0}
+  182  git stash list
+  183  git stash
+  184  git stash list
+  185  git show stash@{0}
+  186  git stash clear
+  187  git stash list
+  188  git status
