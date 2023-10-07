@@ -5,6 +5,11 @@ https://docs.docker.com/
 Docker Run
 https://docs.docker.com/engine/reference/run/
 
+docker run -itd -p 82:80 httpd
+82 --> host/VM port
+80 --> image/container port
+
+
 
 Docker Commands:
 root@ip-172-31-12-24:~# history
