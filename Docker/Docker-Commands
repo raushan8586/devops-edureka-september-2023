@@ -1,1 +1,36 @@
-Docker
+Docker Links:
+https://hub.docker.com/
+https://docs.docker.com/
+
+Docker Run
+https://docs.docker.com/engine/reference/run/
+
+
+Docker Commands:
+root@ip-172-31-12-24:~# history
+    1  apt update -y
+    2  clear
+    3  docker version
+    4  apt install docker.io -y
+    5  clear
+    6  docker version
+    7  history
+    8  docker images
+    9  clear
+   10  docker pull httpd
+   11  docker images
+   12  docker ps
+   13  docker ps -a
+   14  apt install apache2
+   15  lsof -i -P | grep LISTEN
+   16  docker images
+   17  docker inspect 359570977af2
+   18  docker images
+   19  docker run -itd -p 82:80 httpd
+   20  docker ps
+   21  docker images
+   22  docker ps
+   23  docker images
+   24  lsof -i -P | grep LISTEN
+   25  history
+
