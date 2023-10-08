@@ -9,6 +9,9 @@ docker run -itd -p 82:80 httpd
 82 --> host/VM port
 80 --> image/container port
 
+Dockerfile:
+https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
+
 
 
 Docker Commands:
