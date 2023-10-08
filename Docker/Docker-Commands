@@ -12,6 +12,9 @@ docker run -itd -p 82:80 httpd
 Dockerfile:
 https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
 
+Dockerize the Java application
+https://www.baeldung.com/java-dockerize-app
+
 
 
 Docker Commands:
