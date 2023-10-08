@@ -15,6 +15,9 @@ https://jenkov.com/tutorials/docker/dockerfile.html#entrypoint
 Dockerize the Java application
 https://www.baeldung.com/java-dockerize-app
 
+Docker-compose
+https://docs.docker.com/compose/samples-for-compose/
+
 
 
 Docker Commands:
