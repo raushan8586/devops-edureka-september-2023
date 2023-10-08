@@ -62,3 +62,27 @@ root@ip-172-31-12-24:~# history
    44  docker images
    45  docker inspect fc4de6cebc18
 
+69  mkdir project1
+   70  cd project1/
+   71  clear
+   72  touch Dockerfile
+   73  vi Dockerfile
+   74  ls -l
+   75  docker build . -t httpd1
+   76  docker images
+   77  docker rmi ba8c3755b3e0
+   78  docker images
+   79  ls -l
+   80  touch index1.html
+   81  vi index1.html
+   82  docker build . -t httpd1
+   83  docker images
+   84  docker ps
+   85  docker rm -f 5f25ff8ae7f7
+   86  docker ps
+   87  docker run -itd -p 82:80 httpd1
+   88  docker ps
+   89  cat Dockerfile
+   90  docker rename busy_kilby my-web-server
+   91  docker ps
+
