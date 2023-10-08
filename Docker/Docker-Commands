@@ -92,3 +92,75 @@ root@ip-172-31-12-24:~# history
    90  docker rename busy_kilby my-web-server
    91  docker ps
 
+ 94  docker rm -f 33b
+   95  docker ps
+   96  docker rm -f 5a9
+   97  docker ps
+   98  clear
+   99  docker volume ls
+  100  docker volume create edureka-volume
+  101  docker volume ls
+  102  cd /var/lib/docker/volumes/
+  103  ls -l
+  104  cd ~
+  105  docker run -itd --mount source=eureka-volume,target=/usr/local/apache2/htdocs -p 82:80 --name web1 httpd
+  106  docker ps
+  107  dcoker rm -f 06d90dc87d0e
+  108  docker rm -f 06d90dc87d0e
+  109  docker run -itd --mount source=edureka-volume,target=/usr/local/apache2/htdocs -p 82:80 --name web1 httpd
+  110  docker ps
+  111  docker exec -it 58ceb1ada67f /bin/bash
+  112  cd /var/lib/docker/
+  113  ls -l
+  114  cd volumes/
+  115  ls -l
+  116  cd edureka-volume
+  117  ls -l
+  118  cd _data
+  119  ls -l
+  120  cat index1.html
+  121  cat index2.html
+  122  pwd
+  123  docker ps
+  124  docker rm -f 58ceb1ada67f
+  125  docker ps
+  126  ls -l
+  127  docker run -itd --mount source=edureka-volume,target=/usr/local/apache2/htdocs -p 82:80 --name web2 httpd
+  128  docker ps
+  129  docker exec -it ec3ea9440cb4 /bin/bash
+  130  touch index3.html
+  131  vi index3.html
+  132  docker exec -it ec3ea9440cb4 /bin/bash
+  133  history
+  134  ls -l
+  135  vi index.html
+  136  docker ps
+  137  docker rm -f ec3ea9440cb4
+  138  docker run -itd --mount source=edureka-volume,target=/usr/local/apache2/htdocs -p 82:80 --name web3 httpd
+  139  docker ps
+  140  docker exec -it 89df54a98c18 /bin/bash
+  141  cd ~
+  142  cd project1/
+  143  cat Dockerfile
+  144  docker ps
+  145  docker network ls
+  146  docker ps
+  147  docker inspect 89df54a98c18
+  148  docker network ls
+  149  docker inspect 8bd321a3560a
+  150  clear
+  151  docker ps
+  152  docker rm -f 89df54a98c18
+  153  docker ps
+  154  docker-compose version
+  155  apt install docker-compose -y
+  156  docker-compose version
+  157  cd ..
+  158  mkdir project2
+  159  cd project2
+  160  touch docker-compose.yaml
+  161  vi docker-compose.yaml
+  162  docker-compose up -d
+  163  docker ps
+  164  docker exec -it 2bece732744d /bin/bash
+
